@@ -11,6 +11,9 @@
 		3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3729C2FBBD00380734 /* ContentView.swift */; };
 		3CF99E3A29C2FBC000380734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF99E3929C2FBC000380734 /* Assets.xcassets */; };
 		3CF99E3D29C2FBC000380734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF99E3C29C2FBC000380734 /* Preview Assets.xcassets */; };
+		3CF99E4629C2FC2000380734 /* MaintabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4529C2FC2000380734 /* MaintabView.swift */; };
+		3CF99E4A29C2FCCB00380734 /* UploadPostview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4929C2FCCB00380734 /* UploadPostview.swift */; };
+		3CF99E4C29C2FD3B00380734 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4B29C2FD3B00380734 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		3CF99E3729C2FBBD00380734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CF99E3929C2FBC000380734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF99E3C29C2FBC000380734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CF99E4529C2FC2000380734 /* MaintabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintabView.swift; sourceTree = "<group>"; };
+		3CF99E4929C2FCCB00380734 /* UploadPostview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostview.swift; sourceTree = "<group>"; };
+		3CF99E4B29C2FD3B00380734 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		3CF99E2929C2FBBD00380734 = {
 			isa = PBXGroup;
 			children = (
+				3CF99E4329C2FBE500380734 /* View */,
 				3CF99E3429C2FBBD00380734 /* Sakura_demo_camera */,
 				3CF99E3329C2FBBD00380734 /* Products */,
 			);
@@ -52,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */,
-				3CF99E3729C2FBBD00380734 /* ContentView.swift */,
 				3CF99E3929C2FBC000380734 /* Assets.xcassets */,
 				3CF99E3B29C2FBC000380734 /* Preview Content */,
 			);
@@ -65,6 +71,41 @@
 				3CF99E3C29C2FBC000380734 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CF99E4329C2FBE500380734 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CF99E4829C2FC7D00380734 /* Profile */,
+				3CF99E4729C2FC6600380734 /* UploadPost */,
+				3CF99E4429C2FBFB00380734 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CF99E4429C2FBFB00380734 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3CF99E3729C2FBBD00380734 /* ContentView.swift */,
+				3CF99E4529C2FC2000380734 /* MaintabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3CF99E4729C2FC6600380734 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				3CF99E4929C2FCCB00380734 /* UploadPostview.swift */,
+			);
+			path = UploadPost;
+			sourceTree = "<group>";
+		};
+		3CF99E4829C2FC7D00380734 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3CF99E4B29C2FD3B00380734 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +179,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */,
+				3CF99E4A29C2FCCB00380734 /* UploadPostview.swift in Sources */,
+				3CF99E4C29C2FD3B00380734 /* ProfileView.swift in Sources */,
+				3CF99E4629C2FC2000380734 /* MaintabView.swift in Sources */,
 				3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
