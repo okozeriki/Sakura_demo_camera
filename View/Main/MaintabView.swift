@@ -19,7 +19,7 @@ struct MaintabView: View {
                     .tabItem{
                         Image(systemName: "person")
                     }
-            }.navigationTitle("Sakura")
+            }
                 .navigationBarTitleDisplayMode(.inline)
                 .accentColor(.black)
         }
