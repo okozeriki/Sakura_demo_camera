@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0DF2FE29D0173C005EE0A6 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0DF2FD29D0173C005EE0A6 /* FirebaseAuth */; };
+		3C0DF30129D01D3B005EE0A6 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0DF30029D01D3B005EE0A6 /* FirebaseFirestore */; };
+		3C0DF30329D01D3B005EE0A6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0DF30229D01D3B005EE0A6 /* FirebaseFirestoreSwift */; };
+		3C0DF30529D01D3B005EE0A6 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3C0DF30429D01D3B005EE0A6 /* FirebaseStorage */; };
+		3C0DF30829D01E28005EE0A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF30729D01E28005EE0A6 /* User.swift */; };
+		3C0DF30A29D0436E005EE0A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C0DF30929D0436E005EE0A6 /* GoogleService-Info.plist */; };
+		3C0DF30C29D08715005EE0A6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF30B29D08715005EE0A6 /* LoadingView.swift */; };
+		3C0DF30E29D08A99005EE0A6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF30D29D08A99005EE0A6 /* RegisterView.swift */; };
+		3C0DF31129D08B7B005EE0A6 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31029D08B7B005EE0A6 /* View+Extension.swift */; };
+		3C0DF31729D09FFE005EE0A6 /* ReusableProfileContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31629D09FFE005EE0A6 /* ReusableProfileContent.swift */; };
+		3C0DF31929D0A38D005EE0A6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31829D0A38D005EE0A6 /* Post.swift */; };
+		3C0DF31B29D0A651005EE0A6 /* CreateNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31A29D0A651005EE0A6 /* CreateNewPost.swift */; };
+		3C0DF31E29D11115005EE0A6 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31D29D11115005EE0A6 /* Posts.swift */; };
+		3C0DF32029D113CB005EE0A6 /* ReusablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */; };
+		3C0DF32229D14064005EE0A6 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF32129D14064005EE0A6 /* PostCardView.swift */; };
+		3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD5D429CFDA7A00491723 /* LoginView.swift */; };
 		3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */; };
 		3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3729C2FBBD00380734 /* ContentView.swift */; };
 		3CF99E3A29C2FBC000380734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF99E3929C2FBC000380734 /* Assets.xcassets */; };
@@ -14,9 +30,24 @@
 		3CF99E4629C2FC2000380734 /* MaintabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4529C2FC2000380734 /* MaintabView.swift */; };
 		3CF99E4A29C2FCCB00380734 /* UploadPostview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4929C2FCCB00380734 /* UploadPostview.swift */; };
 		3CF99E4C29C2FD3B00380734 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E4B29C2FD3B00380734 /* ProfileView.swift */; };
+		3CF99E5229C472C900380734 /* ImapgePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E5129C472C900380734 /* ImapgePickerView.swift */; };
+		3CF99E5429C472FB00380734 /* BookSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E5329C472FB00380734 /* BookSampleView.swift */; };
+		3CF99E5E29C707F900380734 /* youtube_kavsoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E5D29C707F900380734 /* youtube_kavsoft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C0DF30729D01E28005EE0A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3C0DF30929D0436E005EE0A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C0DF30B29D08715005EE0A6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3C0DF30D29D08A99005EE0A6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		3C0DF31029D08B7B005EE0A6 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		3C0DF31629D09FFE005EE0A6 /* ReusableProfileContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileContent.swift; sourceTree = "<group>"; };
+		3C0DF31829D0A38D005EE0A6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3C0DF31A29D0A651005EE0A6 /* CreateNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPost.swift; sourceTree = "<group>"; };
+		3C0DF31D29D11115005EE0A6 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
+		3C0DF32129D14064005EE0A6 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		3CABD5D429CFDA7A00491723 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakura_demo_camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_demo_cameraApp.swift; sourceTree = "<group>"; };
 		3CF99E3729C2FBBD00380734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +56,9 @@
 		3CF99E4529C2FC2000380734 /* MaintabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaintabView.swift; sourceTree = "<group>"; };
 		3CF99E4929C2FCCB00380734 /* UploadPostview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostview.swift; sourceTree = "<group>"; };
 		3CF99E4B29C2FD3B00380734 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CF99E5129C472C900380734 /* ImapgePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImapgePickerView.swift; sourceTree = "<group>"; };
+		3CF99E5329C472FB00380734 /* BookSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSampleView.swift; sourceTree = "<group>"; };
+		3CF99E5D29C707F900380734 /* youtube_kavsoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = youtube_kavsoft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,18 +66,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0DF2FE29D0173C005EE0A6 /* FirebaseAuth in Frameworks */,
+				3C0DF30529D01D3B005EE0A6 /* FirebaseStorage in Frameworks */,
+				3C0DF30129D01D3B005EE0A6 /* FirebaseFirestore in Frameworks */,
+				3C0DF30329D01D3B005EE0A6 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C0DF2FF29D01D3B005EE0A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C0DF30629D01E1D005EE0A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DF30729D01E28005EE0A6 /* User.swift */,
+				3C0DF31829D0A38D005EE0A6 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3C0DF30F29D08B68005EE0A6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DF31029D08B7B005EE0A6 /* View+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3C0DF31C29D0B53E005EE0A6 /* Upload_new */ = {
+			isa = PBXGroup;
+			children = (
+				3C0DF31A29D0A651005EE0A6 /* CreateNewPost.swift */,
+				3C0DF31D29D11115005EE0A6 /* Posts.swift */,
+				3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */,
+				3C0DF32129D14064005EE0A6 /* PostCardView.swift */,
+			);
+			path = Upload_new;
+			sourceTree = "<group>";
+		};
+		3CABD5D329CFDA5700491723 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3CABD5D429CFDA7A00491723 /* LoginView.swift */,
+				3C0DF30B29D08715005EE0A6 /* LoadingView.swift */,
+				3C0DF30D29D08A99005EE0A6 /* RegisterView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		3CF99E2929C2FBBD00380734 = {
 			isa = PBXGroup;
 			children = (
-				3CF99E4329C2FBE500380734 /* View */,
 				3CF99E3429C2FBBD00380734 /* Sakura_demo_camera */,
 				3CF99E3329C2FBBD00380734 /* Products */,
+				3C0DF2FF29D01D3B005EE0A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +141,11 @@
 		3CF99E3429C2FBBD00380734 /* Sakura_demo_camera */ = {
 			isa = PBXGroup;
 			children = (
+				3C0DF30629D01E1D005EE0A6 /* Model */,
+				3CF99E4329C2FBE500380734 /* View */,
 				3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */,
 				3CF99E3929C2FBC000380734 /* Assets.xcassets */,
+				3C0DF30929D0436E005EE0A6 /* GoogleService-Info.plist */,
 				3CF99E3B29C2FBC000380734 /* Preview Content */,
 			);
 			path = Sakura_demo_camera;
@@ -76,6 +162,9 @@
 		3CF99E4329C2FBE500380734 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3C0DF31C29D0B53E005EE0A6 /* Upload_new */,
+				3C0DF30F29D08B68005EE0A6 /* Helper */,
+				3CABD5D329CFDA5700491723 /* Login */,
 				3CF99E4829C2FC7D00380734 /* Profile */,
 				3CF99E4729C2FC6600380734 /* UploadPost */,
 				3CF99E4429C2FBFB00380734 /* Main */,
@@ -96,6 +185,9 @@
 			isa = PBXGroup;
 			children = (
 				3CF99E4929C2FCCB00380734 /* UploadPostview.swift */,
+				3CF99E5129C472C900380734 /* ImapgePickerView.swift */,
+				3CF99E5329C472FB00380734 /* BookSampleView.swift */,
+				3CF99E5D29C707F900380734 /* youtube_kavsoft.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -104,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF99E4B29C2FD3B00380734 /* ProfileView.swift */,
+				3C0DF31629D09FFE005EE0A6 /* ReusableProfileContent.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -124,6 +217,12 @@
 			dependencies = (
 			);
 			name = Sakura_demo_camera;
+			packageProductDependencies = (
+				3C0DF2FD29D0173C005EE0A6 /* FirebaseAuth */,
+				3C0DF30029D01D3B005EE0A6 /* FirebaseFirestore */,
+				3C0DF30229D01D3B005EE0A6 /* FirebaseFirestoreSwift */,
+				3C0DF30429D01D3B005EE0A6 /* FirebaseStorage */,
+			);
 			productName = Sakura_demo_camera;
 			productReference = 3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +251,9 @@
 				Base,
 			);
 			mainGroup = 3CF99E2929C2FBBD00380734;
+			packageReferences = (
+				3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3CF99E3329C2FBBD00380734 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -167,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CF99E3D29C2FBC000380734 /* Preview Assets.xcassets in Resources */,
+				3C0DF30A29D0436E005EE0A6 /* GoogleService-Info.plist in Resources */,
 				3CF99E3A29C2FBC000380734 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,10 +281,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0DF31E29D11115005EE0A6 /* Posts.swift in Sources */,
+				3CF99E5429C472FB00380734 /* BookSampleView.swift in Sources */,
 				3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */,
+				3C0DF31B29D0A651005EE0A6 /* CreateNewPost.swift in Sources */,
+				3C0DF31729D09FFE005EE0A6 /* ReusableProfileContent.swift in Sources */,
+				3C0DF32229D14064005EE0A6 /* PostCardView.swift in Sources */,
+				3CF99E5E29C707F900380734 /* youtube_kavsoft.swift in Sources */,
+				3C0DF30C29D08715005EE0A6 /* LoadingView.swift in Sources */,
+				3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */,
+				3CF99E5229C472C900380734 /* ImapgePickerView.swift in Sources */,
 				3CF99E4A29C2FCCB00380734 /* UploadPostview.swift in Sources */,
 				3CF99E4C29C2FD3B00380734 /* ProfileView.swift in Sources */,
+				3C0DF31929D0A38D005EE0A6 /* Post.swift in Sources */,
 				3CF99E4629C2FC2000380734 /* MaintabView.swift in Sources */,
+				3C0DF32029D113CB005EE0A6 /* ReusablePostsView.swift in Sources */,
+				3C0DF30E29D08A99005EE0A6 /* RegisterView.swift in Sources */,
+				3C0DF31129D08B7B005EE0A6 /* View+Extension.swift in Sources */,
+				3C0DF30829D01E28005EE0A6 /* User.swift in Sources */,
 				3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,6 +430,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sakura_demo_camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "許可";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,6 +459,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sakura_demo_camera/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "許可";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -381,6 +500,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C0DF2FD29D0173C005EE0A6 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3C0DF30029D01D3B005EE0A6 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3C0DF30229D01D3B005EE0A6 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3C0DF30429D01D3B005EE0A6 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3CF99E2A29C2FBBD00380734 /* Project object */;
 }
