@@ -11,13 +11,15 @@ struct MaintabView: View {
     var body: some View {
         NavigationView {
             TabView{
-                UploadPostview()
+                Posts()
                     .tabItem{
                         Image(systemName: "plus.square")
+                        Text("投稿")
                     }
                 ProfileView()
                     .tabItem{
                         Image(systemName: "person")
+                        Text("プロフィール")
                     }
             }
                 .navigationBarTitleDisplayMode(.inline)

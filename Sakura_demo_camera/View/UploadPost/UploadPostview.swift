@@ -23,6 +23,18 @@ struct UploadPostview: View {
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                         .frame(maxWidth: UIScreen.main.bounds.width*0.9)
                         .shadow(radius: 5)
+                        .overlay(alignment: .topTrailing){
+                            Button{
+                                withAnimation(.easeOut(duration: 0.25)){
+                                    self.selectedImageData = nil
+                                }
+                            }
+                        label:{
+                            Image(systemName: "trash")
+                                .fontWeight(.bold)
+                                .tint(.red)
+                        }
+                        }
                     
                     Button(action: {}, label: {
                         Text("投稿")
