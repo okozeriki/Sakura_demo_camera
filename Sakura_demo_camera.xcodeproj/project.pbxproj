@@ -22,6 +22,8 @@
 		3C0DF31E29D11115005EE0A6 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31D29D11115005EE0A6 /* Posts.swift */; };
 		3C0DF32029D113CB005EE0A6 /* ReusablePostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */; };
 		3C0DF32229D14064005EE0A6 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF32129D14064005EE0A6 /* PostCardView.swift */; };
+		3C81C1A529D5E02600E7D630 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3C81C1A429D5E02600E7D630 /* SDWebImageSwiftUI */; };
+		3C81C1A729D9BBE600E7D630 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1A629D9BBE600E7D630 /* Product.swift */; };
 		3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD5D429CFDA7A00491723 /* LoginView.swift */; };
 		3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */; };
 		3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3729C2FBBD00380734 /* ContentView.swift */; };
@@ -47,6 +49,7 @@
 		3C0DF31D29D11115005EE0A6 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 		3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
 		3C0DF32129D14064005EE0A6 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		3C81C1A629D9BBE600E7D630 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3CABD5D429CFDA7A00491723 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakura_demo_camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_demo_cameraApp.swift; sourceTree = "<group>"; };
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C81C1A529D5E02600E7D630 /* SDWebImageSwiftUI in Frameworks */,
 				3C0DF2FE29D0173C005EE0A6 /* FirebaseAuth in Frameworks */,
 				3C0DF30529D01D3B005EE0A6 /* FirebaseStorage in Frameworks */,
 				3C0DF30129D01D3B005EE0A6 /* FirebaseFirestore in Frameworks */,
@@ -88,6 +92,7 @@
 			children = (
 				3C0DF30729D01E28005EE0A6 /* User.swift */,
 				3C0DF31829D0A38D005EE0A6 /* Post.swift */,
+				3C81C1A629D9BBE600E7D630 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				3C0DF30029D01D3B005EE0A6 /* FirebaseFirestore */,
 				3C0DF30229D01D3B005EE0A6 /* FirebaseFirestoreSwift */,
 				3C0DF30429D01D3B005EE0A6 /* FirebaseStorage */,
+				3C81C1A429D5E02600E7D630 /* SDWebImageSwiftUI */,
 			);
 			productName = Sakura_demo_camera;
 			productReference = 3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */;
@@ -253,6 +259,7 @@
 			mainGroup = 3CF99E2929C2FBBD00380734;
 			packageReferences = (
 				3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				3C81C1A329D5E02600E7D630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = 3CF99E3329C2FBBD00380734 /* Products */;
 			projectDirPath = "";
@@ -298,6 +305,7 @@
 				3C0DF32029D113CB005EE0A6 /* ReusablePostsView.swift in Sources */,
 				3C0DF30E29D08A99005EE0A6 /* RegisterView.swift in Sources */,
 				3C0DF31129D08B7B005EE0A6 /* View+Extension.swift in Sources */,
+				3C81C1A729D9BBE600E7D630 /* Product.swift in Sources */,
 				3C0DF30829D01E28005EE0A6 /* User.swift in Sources */,
 				3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */,
 			);
@@ -510,6 +518,14 @@
 				kind = branch;
 			};
 		};
+		3C81C1A329D5E02600E7D630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -532,6 +548,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 3C0DF2FC29D0173C005EE0A6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
+		};
+		3C81C1A429D5E02600E7D630 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3C81C1A329D5E02600E7D630 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

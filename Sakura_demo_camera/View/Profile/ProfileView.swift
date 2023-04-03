@@ -9,6 +9,7 @@ import SwiftUI
 import Firebase
 import FirebaseStorage
 import FirebaseFirestore
+import MapKit
 
 struct ProfileView: View {
     
@@ -18,21 +19,35 @@ struct ProfileView: View {
     @State var errorMessage: String = ""
     @State var showError: Bool = false
     @State var isLoading: Bool = false
+    @State private var region = MKCoordinateRegion(
+        //Mapの中心の緯度経度
+        center: CLLocationCoordinate2D(latitude: 37.334900,
+                                       longitude: -122.009020),
+        //緯度の表示領域(m)
+        latitudinalMeters: 750,
+        //経度の表示領域(m)
+        longitudinalMeters: 750
+    )
+    
     
     var body: some View {
         NavigationStack{
             VStack{
+//                Map(coordinateRegion: $region)
                 if let myProfile{
                     ReusableProfileContent(user: myProfile)
                 }else{
                     ProgressView()
                 }
             }
+//            .padding(.vertical,10)
             .refreshable {
                 myProfile = nil
                 await fetchUserData()
             }
-            .navigationTitle("My Profile")
+            .navigationTitle("プロフィール")
+            .toolbarBackground(.visible, for: .navigationBar)
+//            .navigationBarTitleDisplayMode(.inline)
             .toolbar{
                 ToolbarItem(placement: .navigationBarTrailing){
                     Menu{
