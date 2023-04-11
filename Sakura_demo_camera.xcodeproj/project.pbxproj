@@ -24,6 +24,13 @@
 		3C0DF32229D14064005EE0A6 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DF32129D14064005EE0A6 /* PostCardView.swift */; };
 		3C81C1A529D5E02600E7D630 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3C81C1A429D5E02600E7D630 /* SDWebImageSwiftUI */; };
 		3C81C1A729D9BBE600E7D630 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1A629D9BBE600E7D630 /* Product.swift */; };
+		3C81C1A929DBD9F600E7D630 /* Multiphotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1A829DBD9F600E7D630 /* Multiphotos.swift */; };
+		3C81C1AB29DBE35800E7D630 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1AA29DBE35800E7D630 /* SliderView.swift */; };
+		3C81C1AD29E0119B00E7D630 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1AC29E0119B00E7D630 /* GridView.swift */; };
+		3C81C1AF29E1A5B000E7D630 /* HikidasiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1AE29E1A5B000E7D630 /* HikidasiView.swift */; };
+		3C81C1B129E2633D00E7D630 /* HikidasiView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */; };
+		3C81C1B329E2F73500E7D630 /* ProfileView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B229E2F73500E7D630 /* ProfileView2.swift */; };
+		3C81C1B529E2F87800E7D630 /* ReusableProfileView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B429E2F87800E7D630 /* ReusableProfileView2.swift */; };
 		3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD5D429CFDA7A00491723 /* LoginView.swift */; };
 		3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */; };
 		3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3729C2FBBD00380734 /* ContentView.swift */; };
@@ -50,6 +57,13 @@
 		3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusablePostsView.swift; sourceTree = "<group>"; };
 		3C0DF32129D14064005EE0A6 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
 		3C81C1A629D9BBE600E7D630 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3C81C1A829DBD9F600E7D630 /* Multiphotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiphotos.swift; sourceTree = "<group>"; };
+		3C81C1AA29DBE35800E7D630 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		3C81C1AC29E0119B00E7D630 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		3C81C1AE29E1A5B000E7D630 /* HikidasiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikidasiView.swift; sourceTree = "<group>"; };
+		3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikidasiView2.swift; sourceTree = "<group>"; };
+		3C81C1B229E2F73500E7D630 /* ProfileView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView2.swift; sourceTree = "<group>"; };
+		3C81C1B429E2F87800E7D630 /* ReusableProfileView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileView2.swift; sourceTree = "<group>"; };
 		3CABD5D429CFDA7A00491723 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakura_demo_camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_demo_cameraApp.swift; sourceTree = "<group>"; };
@@ -112,6 +126,10 @@
 				3C0DF31D29D11115005EE0A6 /* Posts.swift */,
 				3C0DF31F29D113CB005EE0A6 /* ReusablePostsView.swift */,
 				3C0DF32129D14064005EE0A6 /* PostCardView.swift */,
+				3C81C1A829DBD9F600E7D630 /* Multiphotos.swift */,
+				3C81C1AE29E1A5B000E7D630 /* HikidasiView.swift */,
+				3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */,
+				3C81C1AA29DBE35800E7D630 /* SliderView.swift */,
 			);
 			path = Upload_new;
 			sourceTree = "<group>";
@@ -202,6 +220,9 @@
 			children = (
 				3CF99E4B29C2FD3B00380734 /* ProfileView.swift */,
 				3C0DF31629D09FFE005EE0A6 /* ReusableProfileContent.swift */,
+				3C81C1AC29E0119B00E7D630 /* GridView.swift */,
+				3C81C1B229E2F73500E7D630 /* ProfileView2.swift */,
+				3C81C1B429E2F87800E7D630 /* ReusableProfileView2.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -289,11 +310,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0DF31E29D11115005EE0A6 /* Posts.swift in Sources */,
+				3C81C1B529E2F87800E7D630 /* ReusableProfileView2.swift in Sources */,
 				3CF99E5429C472FB00380734 /* BookSampleView.swift in Sources */,
 				3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */,
 				3C0DF31B29D0A651005EE0A6 /* CreateNewPost.swift in Sources */,
+				3C81C1AD29E0119B00E7D630 /* GridView.swift in Sources */,
+				3C81C1A929DBD9F600E7D630 /* Multiphotos.swift in Sources */,
+				3C81C1AF29E1A5B000E7D630 /* HikidasiView.swift in Sources */,
 				3C0DF31729D09FFE005EE0A6 /* ReusableProfileContent.swift in Sources */,
 				3C0DF32229D14064005EE0A6 /* PostCardView.swift in Sources */,
+				3C81C1B329E2F73500E7D630 /* ProfileView2.swift in Sources */,
+				3C81C1B129E2633D00E7D630 /* HikidasiView2.swift in Sources */,
 				3CF99E5E29C707F900380734 /* youtube_kavsoft.swift in Sources */,
 				3C0DF30C29D08715005EE0A6 /* LoadingView.swift in Sources */,
 				3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */,
@@ -302,6 +329,7 @@
 				3CF99E4C29C2FD3B00380734 /* ProfileView.swift in Sources */,
 				3C0DF31929D0A38D005EE0A6 /* Post.swift in Sources */,
 				3CF99E4629C2FC2000380734 /* MaintabView.swift in Sources */,
+				3C81C1AB29DBE35800E7D630 /* SliderView.swift in Sources */,
 				3C0DF32029D113CB005EE0A6 /* ReusablePostsView.swift in Sources */,
 				3C0DF30E29D08A99005EE0A6 /* RegisterView.swift in Sources */,
 				3C0DF31129D08B7B005EE0A6 /* View+Extension.swift in Sources */,

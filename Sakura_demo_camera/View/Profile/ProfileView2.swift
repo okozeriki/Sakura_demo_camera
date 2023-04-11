@@ -1,8 +1,8 @@
 //
-//  ProfileView.swift
+//  ProfileView2.swift
 //  Sakura_demo_camera
 //
-//  Created by 本村力希 on 2023/03/16.
+//  Created by 本村力希 on 2023/04/09.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import FirebaseStorage
 import FirebaseFirestore
 import MapKit
 
-struct ProfileView: View {
+struct ProfileView2: View {
     
     @State private var myProfile: User?
     @AppStorage("log_status") var logStatus: Bool = false
@@ -21,8 +21,8 @@ struct ProfileView: View {
     @State var isLoading: Bool = false
     @State private var region = MKCoordinateRegion(
         //Mapの中心の緯度経度
-        center: CLLocationCoordinate2D(latitude: 36.0834,
-                                       longitude: 140.0766),
+        center: CLLocationCoordinate2D(latitude: 37.334900,
+                                       longitude: -122.009020),
         //緯度の表示領域(m)
         latitudinalMeters: 750,
         //経度の表示領域(m)
@@ -33,9 +33,9 @@ struct ProfileView: View {
     var body: some View {
         NavigationStack{
             VStack{
-                Map(coordinateRegion: $region)
+//                Map(coordinateRegion: $region)
                 if let myProfile{
-                    ReusableProfileContent(user: myProfile)
+                    ReusableProfileView2(user: myProfile)
                 }else{
                     ProgressView()
                 }
@@ -45,7 +45,7 @@ struct ProfileView: View {
                 myProfile = nil
                 await fetchUserData()
             }
-            .navigationTitle("検索")
+            .navigationTitle("プロフィール")
             .toolbarBackground(.visible, for: .navigationBar)
 //            .navigationBarTitleDisplayMode(.inline)
             .toolbar{
@@ -115,8 +115,8 @@ struct ProfileView: View {
     }
 }
 
-struct ProfileView_Previews: PreviewProvider {
+struct ProfileView2_Previews: PreviewProvider {
     static var previews: some View {
-        ProfileView()
+        ProfileView2()
     }
 }

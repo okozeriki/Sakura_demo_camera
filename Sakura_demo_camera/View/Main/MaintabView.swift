@@ -11,16 +11,17 @@ struct MaintabView: View {
     var body: some View {
         NavigationView {
             TabView{
+                ProfileView()
+                    .tabItem{
+                        Image(systemName: "magnifyingglass")
+                        Text("検索")
+                    }
                 Posts()
                     .tabItem{
                         Image(systemName: "plus.square")
                         Text("投稿")
                     }
-                ProfileView()
-                    .tabItem{
-                        Image(systemName: "person")
-                        Text("プロフィール")
-                    }
+                
             }
                 .navigationBarTitleDisplayMode(.inline)
                 .accentColor(.black)
