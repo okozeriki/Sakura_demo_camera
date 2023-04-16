@@ -14,12 +14,17 @@ struct MaintabView: View {
                 ProfileView()
                     .tabItem{
                         Image(systemName: "magnifyingglass")
-                        Text("検索")
+                        Text("探す")
                     }
-                Posts()
+                Posts2()
                     .tabItem{
                         Image(systemName: "plus.square")
                         Text("投稿")
+                    }
+                Posts()
+                    .tabItem{
+                        Image(systemName: "doc.text.image")
+                        Text("タイムライン")
                     }
                 
             }

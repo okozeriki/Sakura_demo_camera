@@ -8,7 +8,8 @@
 import SwiftUI
 
 enum ProductType: String,CaseIterable{
-    case iphone = "全て"
+    case iphone = "最新"
+    case ifhone = "ランキング"
     case ipad = "東北"
     case hokkaidou = "関東"
     case hokubu = "中部"

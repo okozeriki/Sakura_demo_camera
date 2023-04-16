@@ -50,7 +50,7 @@ struct PostCardView: View {
                 //                    }
                 //                    .frame(height: 200)
                 //                }
-                //                PostInteraction()
+//                                PostInteraction()
                 
             }
             .hAlign(.leading)
@@ -106,7 +106,7 @@ struct PostCardView: View {
                 }
                 .frame(height: 200)
             }
-//            PostInteraction()
+            PostInteraction()
         }
         .padding(.vertical,5)
     }

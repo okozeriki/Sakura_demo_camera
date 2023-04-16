@@ -24,21 +24,21 @@ struct Posts: View {
 //    }
     var body: some View {
         NavigationStack {
-//            ScrollableTabs()
+            ScrollableTabs()
             ReusablePostsView(posts: $recentsPosts)
 //            Text("Home page")
                 .hAlign(.center)
                 .vAlign(.center)
-                .overlay(alignment: .bottomTrailing){
-                    Button(action: {createNEwPost.toggle()}, label:{ Image(systemName: "plus")
-                            .font(.title3)
-                            .fontWeight(.semibold)
-                            .foregroundColor(.white)
-                            .padding(13)
-                            .background(.black,in: Circle())
-                    }).padding(15)
-                }
-                .navigationTitle("投稿")
+//                .overlay(alignment: .bottomTrailing){
+//                    Button(action: {createNEwPost.toggle()}, label:{ Image(systemName: "plus")
+//                            .font(.title3)
+//                            .fontWeight(.semibold)
+//                            .foregroundColor(.white)
+//                            .padding(13)
+//                            .background(.black,in: Circle())
+//                    }).padding(15)
+//                }
+                .navigationTitle("タイムライン")
 //                .navigationBarTitleDisplayMode(.inline)
                 }
                 .fullScreenCover(isPresented: $createNEwPost){

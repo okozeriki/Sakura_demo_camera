@@ -45,7 +45,7 @@ struct CreateNewPost: View {
                 Button(action: {
                     createPost()
                 }, label: {
-                    Text("Post")
+                    Text("投稿")
                         .font(.callout)
                         .foregroundColor(.white)
                         .padding(.horizontal,20)

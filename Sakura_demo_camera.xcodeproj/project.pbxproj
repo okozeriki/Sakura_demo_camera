@@ -31,6 +31,7 @@
 		3C81C1B129E2633D00E7D630 /* HikidasiView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */; };
 		3C81C1B329E2F73500E7D630 /* ProfileView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B229E2F73500E7D630 /* ProfileView2.swift */; };
 		3C81C1B529E2F87800E7D630 /* ReusableProfileView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B429E2F87800E7D630 /* ReusableProfileView2.swift */; };
+		3C81C1B729EA633400E7D630 /* Posts2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81C1B629EA633400E7D630 /* Posts2.swift */; };
 		3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CABD5D429CFDA7A00491723 /* LoginView.swift */; };
 		3CF99E3629C2FBBD00380734 /* Sakura_demo_cameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */; };
 		3CF99E3829C2FBBD00380734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF99E3729C2FBBD00380734 /* ContentView.swift */; };
@@ -64,6 +65,7 @@
 		3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikidasiView2.swift; sourceTree = "<group>"; };
 		3C81C1B229E2F73500E7D630 /* ProfileView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView2.swift; sourceTree = "<group>"; };
 		3C81C1B429E2F87800E7D630 /* ReusableProfileView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProfileView2.swift; sourceTree = "<group>"; };
+		3C81C1B629EA633400E7D630 /* Posts2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts2.swift; sourceTree = "<group>"; };
 		3CABD5D429CFDA7A00491723 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3CF99E3229C2FBBD00380734 /* Sakura_demo_camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakura_demo_camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF99E3529C2FBBD00380734 /* Sakura_demo_cameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sakura_demo_cameraApp.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				3C81C1AE29E1A5B000E7D630 /* HikidasiView.swift */,
 				3C81C1B029E2633D00E7D630 /* HikidasiView2.swift */,
 				3C81C1AA29DBE35800E7D630 /* SliderView.swift */,
+				3C81C1B629EA633400E7D630 /* Posts2.swift */,
 			);
 			path = Upload_new;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				3C81C1B129E2633D00E7D630 /* HikidasiView2.swift in Sources */,
 				3CF99E5E29C707F900380734 /* youtube_kavsoft.swift in Sources */,
 				3C0DF30C29D08715005EE0A6 /* LoadingView.swift in Sources */,
+				3C81C1B729EA633400E7D630 /* Posts2.swift in Sources */,
 				3CABD5D529CFDA7A00491723 /* LoginView.swift in Sources */,
 				3CF99E5229C472C900380734 /* ImapgePickerView.swift in Sources */,
 				3CF99E4A29C2FCCB00380734 /* UploadPostview.swift in Sources */,

@@ -45,7 +45,7 @@ struct ProfileView: View {
                 myProfile = nil
                 await fetchUserData()
             }
-            .navigationTitle("検索")
+            .navigationTitle("探す")
             .toolbarBackground(.visible, for: .navigationBar)
 //            .navigationBarTitleDisplayMode(.inline)
             .toolbar{
